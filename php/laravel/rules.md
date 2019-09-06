@@ -15,12 +15,12 @@
 1. LA-15 Changes to old migrations are not allowed. Always create new ones.
 1. LA-16 All data fileds should be added in models $data array property for casting
 1. LA-17 Never use php date and datetime libraries. Always use Carbon
-1. LA-17 Enable concurrency check on resource editing - only for predefined resources
-1. LA-17 Private files should not be available publicly
-1. LA-17 Always store dates/datetimes in UTC.
-1. LA-17 Always store dates in UTC.
-1. LA-17 For Json Response All Resources should be passed through a transformer layer.
-1. LA-17 CSRF protection should be enabled for all forms.
+1. LA-18 Enable concurrency check on resource editing - only for predefined resources
+1. LA-19 Private files should not be available publicly
+1. LA-20 Always store dates/datetimes in UTC.
+1. LA-21 Always store dates in UTC.
+1. LA-22 For Json Response All Resources should be passed through a transformer layer.
+1. LA-23 CSRF protection should be enabled for all forms.
 
 
 ## LA-01
