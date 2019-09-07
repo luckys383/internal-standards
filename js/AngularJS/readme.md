@@ -8,6 +8,7 @@
 
 **NG-4** Use one time binding syntax(Scope resolutions operator) if no need of two-way binding.
 
+
 ## Recomended
 **NG-1** No sensitive information should be present anywhere except .env files
 
