@@ -1,6 +1,6 @@
 ## Mandatory 
 
-**NG-1** Use custom lister(Window Events) instead of `broadcast & emit`
+[**NG-1**](docs/ng-1.md) Use custom lister(Window Events) instead of `broadcast & emit`
 
 **NG-2** Use wrapper class for check true, isDefined, isString, isArray and etc.
 
