@@ -1,12 +1,13 @@
 ## Mandatory 
 
-**NG-1** Use custom lister(Window Events) instead of `broadcast & emit`
+[**NG-1**](docs/ng-1.md) Use custom lister(Window Events) instead of `broadcast & emit`
 
-**NG-2** Use wrapper class for check true, isDefined, isString, isArray and etc.
+[**NG-2**](docs/ng-2.md) Use wrapper class for check true, isDefined, isString, isArray and etc.
 
 **NG-3** Use more virtual memory instead of $scope.
 
 **NG-4** Use one time binding syntax(Scope resolutions operator) if no need of two-way binding.
+
 
 ## Recomended
 **NG-1** No sensitive information should be present anywhere except .env files
