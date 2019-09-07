@@ -31,22 +31,16 @@
 
 **NG2-11** Define common messges, warning, confirmation text at single place, so we can override/change them easily if required.
 
-**NG2-12** Use React.PureComponent when a component has immutable set of props and state.
+**NG2-12** Always assign default values for your props by assigning to the special defaultProps.
 
-**NG2-13** Define PropType.
+**NG2-13** Use Arrow notations to define functions.
 
-**NG2-14** Always assign default values for your props by assigning to the special defaultProps.
+**NG2-14** Extract properties value from an object or arrays into another variable using destructure syntax from ES6.
 
-**NG2-15** Use Arrow notations to define functions.
+**NG2-15** Avoid using var and use let and const for declaring variables.
 
-**NG2-16** If using Redux, then retrieve data from redux store using selectors.
+**NG2-16** Use template literals syntax to concatenate strings. Avoid using + operator for concatenation.
 
-**NG2-17** Extract properties value from an object or arrays into another variable using destructure syntax from ES6.
+**NG2-17** Use Object literals shortend to initialize objects from already defined variables.
 
-**NG2-18** Avoid using var and use let and const for declaring variables.
-
-**NG2-19** Use template literals syntax to concatenate strings. Avoid using + operator for concatenation.
-
-**NG2-20** Use Object literals shortend to initialize objects from already defined variables.
-
-**NG2-21** Its good if you use layer between any third party package in your project..
+**NG2-18** Its good if you use layer between any third party package in your project..
