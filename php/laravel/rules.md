@@ -7,7 +7,7 @@
 1. LA-07 Use Eager loading alleviates the N + 1 query problem.
 1. LA-08 Avoid calculation/logic operations inside the view layer.
 1. LA-09 Always use Request Classes for performating validation on request Data unless it's 1-2 rule validation only.
-1. LA-10 Facade are be used only in View/Controllers/Validation/Route layers. Use direct classed at all other places
+1. LA-10 Facade aradsfsdfe be used only in View/Controllers/Validation/Route layers. Use direct classed at all other places
 1. LA-11 All atomic database operations which are supposed to run or fail as a whole should be wrapped in DB Transactions
 1. LA-12 Always Use Queues for sending emails
 1. LA-13 Always use migrations for all database schema related operations. No direct change should be made
