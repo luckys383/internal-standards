@@ -1,4 +1,4 @@
-1. NG-1 No sensitive information should be present anywhere except .env files
+1. NG-1 No sensitive information should be present anywhere except .env filesafsdfsdfs
 1. NG-2 Dont use wild card for pakcage version which allow auto upgrade to major release
 1. NG-3 Always convert UTC dates into selected or local timezone before displaying
 1. NG-4 Single function should handle a single responsibility.
