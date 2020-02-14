@@ -1,5 +1,5 @@
 1. [LA-01](#la-01) No sensitive information should be present anywhere except .env files
-1. LA-02 Env variables should never be used using env() function directly anywhere except config files
+1. [LA-02] (#la-02) Env variables should never be used using env() function directly anywhere except config files
 1. LA-03 Don't add new config keys in standard Laravel Or Package fiiles. Create new config files custom config needs.
 1. LA-04 .env.sample should contains all keys that needs be added in .env file. With sensible default or placeholders
 1. LA-05 Only use stable releases of composer packages
@@ -26,6 +26,27 @@
 ## LA-01
 We should never include any sensitive information like password, access_tokens, username, payment details etc in project files. And hence should never
 be committed to the git. They should only be added in the .env file.
+
+## LA-02
+Pass the data to config files instead and then use the config() helper function to use the data in the application.
+
+Bad Practice:-
+
+```php
+$apiKey = env('API_KEY');
+```
+
+Good Practice:-
+
+```php
+// config/api.php
+'key' => env('API_KEY'),
+
+// Use the data
+$apiKey = config('api.key');
+```
+
+
 
 
 
